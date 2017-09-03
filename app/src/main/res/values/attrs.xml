@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTitle">
+        <attr name="Left_Text" format="string"></attr>
+        <attr name="Left_TextColor" format="color"></attr>
+        <attr name="Left_TextSize" format="dimension"></attr>
+        <attr name="Left_bg_Color" format="reference"></attr>
+
+        <attr name="Right_Text" format="string"></attr>
+        <attr name="Right_TextColor" format="color"></attr>
+        <attr name="Right_TextSize" format="dimension"></attr>
+        <attr name="Right_bg_Color" format="reference"></attr>
+
+        <attr name="Center_Text" format="string"></attr>
+        <attr name="Center_TextColor" format="color"></attr>
+        <attr name="Center_TextSize" format="dimension"></attr>
+        <attr name="Center_bg_Color" format="reference"></attr>
+    </declare-styleable>
+</resources>
