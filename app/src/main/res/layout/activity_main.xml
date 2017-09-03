@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -9,10 +9,23 @@
     >
 
     <com.example.testone.MyTitle
+        android:id="@+id/mytitle"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="60dp"
+        app:Center_Text="自定义标题栏"
+        app:Center_TextColor="#f00"
+        app:Center_TextSize="25sp"
+        app:Center_bg_Color="@color/center_bg_Color"
+        app:Left_Text="返回"
+        app:Left_TextColor="#ffffff"
+        app:Left_TextSize="20sp"
+        app:Left_bg_Color="@drawable/shape"
+        app:Right_Text="更多"
+        app:Right_TextColor="#ffffff"
+        app:Right_TextSize="20sp"
+        app:Right_bg_Color="@drawable/shape"
         >
 
     </com.example.testone.MyTitle>
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
